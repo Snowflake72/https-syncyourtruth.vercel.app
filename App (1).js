@@ -1,5 +1,3 @@
-// Sync Your Truth - Web App with Admin Auth
-
 import React, { useState, useEffect } from 'react'; import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom'; import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient( 'https://skthujnqpsjgcmimymck.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNrdGh1am5xcHNqZ2NtaW15bWNrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4MDA2MDAsImV4cCI6MjA2NjM3NjYwMH0.lVJkVEe9i4QdTt_MWEk3qZF9xx8DWF6pQy1gzw4mJjk' );
